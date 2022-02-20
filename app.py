@@ -21,5 +21,5 @@ def prediction():
     
     
     return jsonify({"is_american":str(pre[0]),"version":"MultinomialNB_v1"," model_date":app.dt})
-#     return ' '.join([str(i) for i in pre])
+
 
