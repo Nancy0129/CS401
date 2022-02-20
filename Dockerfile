@@ -11,7 +11,7 @@ WORKDIR /try0
 
 RUN pip install -r requirements.txt
 
-ENTRYPOINT ["flask","run","--port","5001"]
+ENTRYPOINT ["flask","run","--port","5001","--host=0.0.0.0"]
 
 
 
