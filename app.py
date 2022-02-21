@@ -24,4 +24,4 @@ def prediction():
     
     
     
-    return jsonify({"is_american":str(pre[0]),"version":app.v," model_date":app.t})
+    return jsonify({"is_american":str(pre[0]),"version":app.v, "model_date":app.t})
